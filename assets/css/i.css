@@ -1,0 +1,34 @@
+/*
+currentColor = varsayılan renk
+
+*/
+
+.fs {
+  width: 42.14px;
+  height: 45px;
+  stroke: red;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.fx {
+  width: 18.35px;
+  height: 20px;
+  stroke: red;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.src {
+  width: 84.15px;
+  height: 91px;
+  stroke: red;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
