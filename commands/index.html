@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="description" content="Hord'un sahip olduğu tüm komutların tam listesi.">
+<meta name="keywords" content="admin, bot, dashboard, Hord, website, discord, discordapp, commands, command, list, all">
+<title>Hord | Commands</title>
+<script src="https://unpkg.com/feather-icons"></script>
+<meta name="theme-color" content="#F24443">
+<link rel="apple-touch-icon" href="/static/app-assets/images/logo/logo.png">
+<link rel="shortcut icon" type="image/x-icon" href="/static/app-assets/images/logo/logo.png">
+<link rel="shortcut icon" href="/static/app-assets/images/logo/logo.png">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hord - The Discord Bot">
+<meta property="og:description" content="Hord'un sahip olduğu tüm komutların tam listesi..">
+<meta property="og:image" content="/static/app-assets/images/logo/logo.png">
+<meta property="og:icon" content="/static/app-assets/images/logo/logo.png">
+<meta property="og:thumbnail" content="/static/app-assets/images/logo/logo.png">
+<meta property="og:url" content="https://scofilds.gg">
+<meta name="twitter:card" content="app">
+<meta name="twitter:title" content="Hord - The Discord Bot">
+<meta name="twitter:description" content="Hord'un sahip olduğu tüm komutların tam listesi..">
+<meta name="twitter:image" content="/static/app-assets/images/logo/logo.png">
+<meta name="twitter:icon" content="/static/app-assets/images/logo/logo.png">
+<meta name="twitter:thumbnail" content="/static/app-assets/images/logo/logo.png">
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/vendors.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-extended.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+<link rel="stylesheet" type="text/css" href="assets/css/components.css">
+<link rel="stylesheet" type="text/css" href="assets/css/themes/dark-layout.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/vertical-menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/palette-gradient.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate/animate.css">
+
+</head>
+
+
+<body class="dark-layout vertical-layout vertical-menu-modern 2-columns  navbar-floating footer-static   menu-collapsed" data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
+
+<nav class="header-navbar navbar-expand-lg navbar navbar-with-menu floating-nav navbar-light navbar-shadow">
+<div class="navbar-wrapper">
+<div class="navbar-container content">
+<div class="navbar-collapse" id="navbar-mobile">
+<div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+<ul class="nav navbar-nav">
+<li class="nav-item mobile-menu d-xl-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ficon feather icon-menu"></i></a></li>
+</ul>
+<ul class="nav navbar-nav bookmark-icons">
+
+
+
+<li class="nav-item d-none d-lg-block"><a class="nav-link" href=".." data-toggle="tooltip" data-placement="top" title="Home"><i data-feather="home"></i></a></li>
+<li class="nav-item d-none d-lg-block"><a class="nav-link" href="status" data-toggle="tooltip" data-placement="top" title="Status"><i data-feather="server"></i></a></li>
+<li class="nav-item d-none d-lg-block"><a class="nav-link" href="support" data-toggle="tooltip" data-placement="top" title="Support"><i data-feather="message-square"></i></a></li>
+<li class="nav-item d-none d-lg-block"><a class="nav-link" href="dashboard" data-toggle="tooltip" data-placement="top" title="Dashboard"><i data-feather="settings"></i></a></li>
+</ul>
+</div>
+<ul class="nav navbar-nav float-right">
+<form id="theme" novalidate method="POST" action="/theme">
+<li class="nav-item d-none d-lg-block">
+<a class="nav-link" href="https://bit.ly/hord_davet">
+<i data-feather="plus"></i>
+</a>
+</li>
+</form>
+<li class="nav-item">
+<a href="/login?next=/knowledge" class="btn btn-outline-primary round my-1 mr-1 mb-1 waves-effect waves-light">Giriş yap</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+
+
+<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+<div class="navbar-header">
+<ul class="nav navbar-nav flex-row">
+<li class="nav-item mr-auto"><a class="navbar-brand">
+<img src="assets/img/logo.png" alt="x" height="30" width="30">
+<h2 class="brand-text mb-0">Hord</h2>
+</a></li>
+<li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i data-feather="disc"></i></a></li>
+</ul>
+</div>
+<div class="shadow-bottom"></div>
+<div class="main-menu-content">
+<ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+<li><a href=".." title="Home"><i data-feather="home"></i><span class="menu-title" data-i18n="Home"> Anasayfa</span></a>
+<li><a href="support" title="Support"><i data-feather="message-square"></i><span class="menu-item" data-i18n="Support"> Destek</span></a>
+<li><a href="commands" title="Komutlar"><i data-feather="menu" color="orange"></i><span class="menu-item" data-i18n="Commands"> Komutlar</span></a>
+</li>
+<li><a href="vote" title="Oy"><i data-feather="check-square"></i><span class="menu-item" data-i18n="Vote"> Oy</span></a>
+<li><a href="knowledge" title="Bilgi"><i data-feather="folder"></i><span class="menu-item" data-i18n="Knowledge"> Bilgi</span></a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="app-content content">
+<div class="content-overlay"></div>
+<div class="header-navbar-shadow"></div>
+<div class="content-wrapper">
+<div class="content-header row">
+<div class="content-header-left col-md-9 col-12 mb-2">
+<div class="row breadcrumbs-top">
+<div class="col-12">
+<h2 class="content-header-title float-left mb-0">Komutlar</h2>
+<div class="breadcrumb-wrapper col-12">
+<ol class="breadcrumb">
+<li class="breadcrumb-item">
+<a href="./">
+<i data-feather="home"></i>
+</a>
+</li>
+<li class="breadcrumb-item">Komutlar
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-body">
+<section id="leveling">
+<div class="row">
+<div class="col-sm-12">
+<div id="levelingcommands" role="tablist" aria-multiselectable="true">
+<div class="card collapse-icon accordion-icon-rotate">
+ <div class="card-header">
+<h4 class="card-title">Genel Komutlar</h4>
+</div>
+<div class="card-content">
+<div class="card-body">
+<p>Bot ile ilgili her şey</p>
+<div class="accordion-shadow collapse-bordered">
+<div class="card collapse-header">
+<div id="heading401" class="card-header" data-toggle="collapse" role="button" data-target="#accordion401" aria-expanded="false" aria-controls="accordion401">
+<span class="lead collapse-title">
+Avatar
+</span>
+</div>
+<div id="accordion401" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading401" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Avatarınızı gösterir.
+</div>
+<div class="card-footer">
+!avatar <code>@kullanıcı</code>
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading400" class="card-header" data-toggle="collapse" role="button" data-target="#accordion400" aria-expanded="false" aria-controls="accordion400">
+<span class="lead collapse-title">
+Afk
+</span>
+</div>
+<div id="accordion400" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading400" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Bir afk mesajı ayarlayın. Bir kişi size ping atarsa, o mesajı gösterecektir.
+</div>
+<div class="card-footer">
+!afk uyku molası
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading402" class="card-header" data-toggle="collapse" role="button" data-target="#accordion402" aria-expanded="false" aria-controls="accordion402">
+<span class="lead collapse-title">
+Kullanıcı
+</span>
+</div>
+<div id="accordion402" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading402" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Bir kullanıcı hakkında bilgi alın
+</div>
+<div class="card-footer">
+!user-info <code>@kullanıcı</code>
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading403" class="card-header" data-toggle="collapse" role="button" data-target="#accordion403" aria-expanded="false" aria-controls="accordion403">
+<span class="lead collapse-title">
+Davet
+</span>
+</div>
+<div id="accordion403" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading403" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Botu sunucuna eklemeye ne dersin?
+</div>
+<div class="card-footer">
+!davet
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading404" class="card-header" data-toggle="collapse" role="button" data-target="#accordion404" aria-expanded="false" aria-controls="accordion404">
+<span class="lead collapse-title">
+<i data-feather="star" color="orange"></i> Ban
+</span>
+</div>
+<div id="accordion404" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading404" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Bir üyeyi sunucudan yasaklar
+</div>
+<div class="card-footer">
+!ban <code>@kullanıcı</code>
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading405" class="card-header" data-toggle="collapse" role="button" data-target="#accordion405" aria-expanded="false" aria-controls="accordion405">
+<span class="lead collapse-title">
+Yavaş mod
+</span>
+</div>
+<div id="accordion405" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading405" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Bir kanalda yavaş modu etkinleştirir/devre dışı bırakır
+</div>
+<div class="card-footer">
+!slowmode <code>zaman, kapat</code>
+</div>
+</div>
+</div>
+</div>
+<div class="card collapse-header">
+<div id="heading406" class="card-header" data-toggle="collapse" role="button" data-target="#accordion406" aria-expanded="false" aria-controls="accordion406">
+<span class="lead collapse-title">
+Uyar
+</span>
+</div>
+<div id="accordion406" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading406" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Bir üyeyi uyarmak mı istiyorsun?
+</div>
+<div class="card-footer">
+!uyar <code>@kullanıcı [sebep]</code>
+</div>
+</div>
+</div>
+</div>
+  
+<div class="card collapse-header">
+<div id="heading407" class="card-header" data-toggle="collapse" role="button" data-target="#accordion407" aria-expanded="false" aria-controls="accordion407">
+<span class="lead collapse-title">
+Premium
+</span>
+</div>
+<div id="accordion407" role="tabpanel" data-parent="#levelingcommands" aria-labelledby="heading407" class="collapse" aria-expanded="false">
+<div class="card-content">
+<div class="card-body">
+Premium hakkında bilgi alabilirsin
+</div>
+<div class="card-footer">
+!premium
+</div>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="modal fade text-left" id="reactionroles" tabindex="-1" role="dialog" aria-labelledby="reactionroles-label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="reactionroles-label">Reactionroles</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<center>
+<img src="/static/commandusage/reactionroles.gif" style="max-width:60%;width:60%;">
+</center>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="sidenav-overlay"></div>
+<div class="drag-target"></div>
+
+<footer class="footer footer-static footer-light">
+<p class="clearfix blue-grey lighten-2 mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">Copyright &copy; 2020 - 2021 skybow#0001 Her hakkı saklıdır</span></p>
+</footer>
+
+
+<script src="assets/js/vendors.min.js"></script>
+
+
+
+
+<script src="assets/js/app-menu.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/components.js"></script>
+
+
+     <script>
+      feather.replace()
+    </script>
+  
+
+</body>
+
+</html>
